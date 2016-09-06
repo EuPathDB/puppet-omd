@@ -18,7 +18,7 @@ class omd::client::params {
       $package_name = 'check-mk-agent'
     }
     'RedHat': {
-      $package_name = 'check_mk-agent'
+      $package_name = 'check-mk-agent'
     }
     default: {
       fail("${::osfamily} not supported")
